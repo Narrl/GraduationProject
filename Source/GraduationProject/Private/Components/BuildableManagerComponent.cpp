@@ -17,3 +17,15 @@ void UBuildableManagerComponent::BeginPlay()
 	
 }
 
+void UBuildableManagerComponent::ToggleBuildMode()
+{
+}
+
+void UBuildableManagerComponent::SpawnPreview()
+{
+}
+
+void UBuildableManagerComponent::UpdatePreviewLocation()
+{
+}
+

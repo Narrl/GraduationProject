@@ -18,4 +18,6 @@ class GRADUATIONPROJECT_API UBuildingSystemFL : public UBlueprintFunctionLibrary
 public:
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "BuildingSystem", meta = (DisplayName = "Get Building Data By Tag"))
 	static FBuildingData GetBuildingDataByTag(class UDataTable* BuildingDataTable, const FGameplayTag& BuildingType, const FGameplayTag& ResourceType);
+	
+	
 };
