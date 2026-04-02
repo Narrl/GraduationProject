@@ -7,7 +7,7 @@
 #include "BuildableManagerComponent.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(Blueprintable, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class GRADUATIONPROJECT_API UBuildableManagerComponent : public UActorComponent
 {
 	GENERATED_BODY()
